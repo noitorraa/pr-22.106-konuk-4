@@ -1,0 +1,18 @@
+﻿<Window x:Class="pr_22._106_konuk_4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pr_22._106_konuk_4"
+        mc:Ignorable="d"
+        Title="Konuk 4 var" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="but1" Content="Начать расчет" HorizontalAlignment="Left" Margin="47,163,0,0" VerticalAlignment="Top" Click="but1_Click"/>
+        <TextBox x:Name="tb1" HorizontalAlignment="Left" Margin="170,110,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353"/>
+        <Label Content="Введите строку" HorizontalAlignment="Left" Margin="47,102,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tb2" HorizontalAlignment="Left" Margin="170,217,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="353"/>
+        <TextBox HorizontalAlignment="Center" Margin="0,25,0,0" TextWrapping="Wrap" Text="Вводится строка-предложение на английском языке, содержащая избыточные пробелы. Преобразовать строку так, чтобы первая и последняя буква каждого слова начиналась с заглавной буквы, а все избыточные пробелы были заменены на «это_пробел»." VerticalAlignment="Top" Width="672"/>
+        <Label Content="Результат" HorizontalAlignment="Left" Margin="47,213,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
